@@ -15,7 +15,7 @@ SignIn = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'sign-in',
-        templateUrl: './templates/signin.template.html',
+        templateUrl: '../templates/signin.template.html',
     })
 ], SignIn);
 exports.SignIn = SignIn;

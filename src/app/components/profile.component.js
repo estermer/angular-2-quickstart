@@ -15,7 +15,7 @@ Profile = __decorate([
     core_1.Component({
         moduleId: module.id,
         selector: 'profile',
-        templateUrl: './templates/profile.template.html',
+        templateUrl: '../templates/profile.template.html',
     })
 ], Profile);
 exports.Profile = Profile;
