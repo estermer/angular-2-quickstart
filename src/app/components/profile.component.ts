@@ -1,7 +1,15 @@
 import { Component } from '@angular/core';
 
 @Component({
+  moduleId: module.id,
   selector: 'profile',
-  template: `<div>profile</div>`,
+  templateUrl: './templates/profile.template.html',
 })
-export class Profile  {  }
+export class Profile  {
+  person: person;
+}
+
+interface person {
+  name: () => string;
+  avatarUrl: () => string;
+}
