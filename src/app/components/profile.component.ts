@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { IPerson } from '../interfaces/interfaces';
 
 @Component({
   moduleId: module.id,
@@ -6,10 +7,5 @@ import { Component } from '@angular/core';
   templateUrl: '../templates/profile.template.html',
 })
 export class Profile  {
-  person: person;
-}
-
-interface person {
-  name: () => string;
-  avatarUrl: () => string;
+  person: IPerson;
 }
