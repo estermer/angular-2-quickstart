@@ -1,5 +1,13 @@
 import { Component } from '@angular/core';
 import { IPerson } from '../interfaces/interfaces';
+import {
+  isSignInPending,
+  isUserSignedIn,
+  makeAuthRequest,
+  redirectUserToSignIn,
+  signUserIn,
+  signUserOut,
+} from 'blockstack';
 
 @Component({
   moduleId: module.id,
